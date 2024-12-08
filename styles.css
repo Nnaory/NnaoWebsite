@@ -1,0 +1,164 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+/*FONT LOKAL*/
+@font-face {
+  font-family:'Heavitas';
+  src: url('Font/Heavitas.ttf') format('truetype');
+}
+@font-face {
+  font-family:'LoraItalic';
+  src: url('Font/LoraItalic.ttf') format('truetype');
+}
+@font-face {
+  font-family:'HuskyGiggle';
+  src: url('Font/HuskyGiggleDemo.ttf') format('truetype');
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+/* BACKGROUND HALAMAN */
+.header {
+  background-color: black;
+  color: white;
+  text-align: left;
+  font-size: 15px;
+  font-family: 'Heavitas', Sans-Serif;
+  margin: 15px;
+  padding: 15px;
+  height: 30px;
+}
+
+/*NAVIGASI UTAMA*/
+a {
+  text-decoration: none;
+  color: white;
+  padding: 0px 8px 0px 8px;
+  border-right: solid 2px white;
+}
+
+
+/*HOMEPAGE PERTAMA, UTAMA*/
+.homepage {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: solid 2px white;
+  border-bottom: solid 2px white;
+  text-align: center;
+  flex-grow: 1;
+}
+
+#Homepict {
+  width: 200px;
+  height: 200px;
+  margin-right: 15px;
+  margin-left: 10px;
+  padding: 20px 0;
+}
+
+#WelcomeText {
+  color: white;
+  font-family: 'Montserrat';
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*HOMEPAGE KEDUA*/
+.tahukahkamu {
+  color: black;
+  text-align: center;
+  font-family: 'Montserrat';
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+}
+
+/*HOMEPAGE KETIGA*/
+.faktahomepage {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.biarditengah {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.gambardihomepage {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.textJudulTopikHomepage {
+  font-family: 'Montserrat';
+}
+
+.textSelengkapnyadi {
+  font-family: 'Montserrat';
+}
+
+/*HOMEPAGE KEEMPAT PROFIL*/
+.profilhomepage {
+  color: white;
+  margin-top: 20px;
+}
+
+#WhoAmI {
+  font-family: 'Montserrat';
+  margin-top: 20px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  color: black;
+}
+.Smallnote {
+  font-family: 'Montserrat';
+  text-indent: 30px;
+}
+#Smallnotetitle {
+  font-weight: bold;
+}
+/*HOMEPAGE TERAKHIR*/
+.QuotesAndClosing {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.Quotes {
+  color: black;
+  font-family: 'HuskyGiggle';
+  font-size: 40px;
+  font-weight: 200;
+  background-color: white;
+  border: solid 1px white;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+.TokohQuotes {
+  margin-bottom: 50px;
+}
+.Closing {
+  font-size: 10px;
+}
