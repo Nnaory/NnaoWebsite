@@ -246,7 +246,8 @@ a:hover {
 
 /*ISI ARTIKELNYA*/
 .artikelpage {
-  display: column;
+  display: flex;
+  flex-direction: column;
   margin: 30px;
 }
 .headerartikel {
@@ -257,14 +258,15 @@ a:hover {
   color: white;
 }
 .titledalam-artikel {
-  
+  font-family: 'Montserrat';
+  font-size: 24px;
 }
 .tanggaldalam-artikel {
   padding-bottom: 20px;
   border-bottom: solid 1px white;
 }
 .isi-artikel {
- padding: 10px;
+  padding: 10px;
 }
 .gambardalam-artikel {
   max-width: 100%;
@@ -275,4 +277,28 @@ a:hover {
 }
 .daftar-sumber {
   font-size: 10px;
+}
+
+/* untuk layar kecil */
+@media (max-width: 768px) {
+  .artikelpage {
+    margin: 15px;
+  }
+  .headerartikel {
+    height: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .titledalam-artikel {
+    font-size: 16px;
+  }
+  .isi-artikel {
+    padding: 5px;
+  }
+  .teks-artikel {
+    text-indent: 15px;
+  }
+  .daftar-sumber {
+    font-size: 8px;
+  }
 }
