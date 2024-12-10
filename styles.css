@@ -35,7 +35,7 @@ body {
   text-align: center;
   font-size: 15px;
   font-family: 'Heavitas', Sans-Serif;
-  margin: 15px;
+  margin: 10px;
   padding: 10px;
   height: 30px;
 }
@@ -154,7 +154,7 @@ a:hover {
 .Smallnote {
   font-family: 'Montserrat';
   text-indent: 30px;
-  margin: 15px;
+  margin: 20px;
 }
 #Smallnotetitle {
   font-weight: bold;
@@ -185,7 +185,7 @@ a:hover {
 }
 
 /*SCIENCE PAGE*/
-.sciencepage {
+.headerpage {
   background-image: url('Pages/sciencepict/backgroundheaderscience.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -223,13 +223,18 @@ a:hover {
   margin-left: 20px;
   margin-right: 30px;
 }
+
+/*ARTIKEL DI PAGE UTAMA*/
 .title-artikel {
   font-family: 'Heavitas';
   font-weight: 200;
-  
 }
 .deskripsi-artikel {
   font-family: 'Montserrat';
+}
+.tanggal-artikel {
+  font-family: 'Montserrat';
+  font-size: 10px;
 }
 .gambar-artikel {
   width: 80px;
@@ -237,4 +242,37 @@ a:hover {
   margin-right: 30px;
   border-radius: 8px;
   margin-bottom: 20px;
+}
+
+/*ISI ARTIKELNYA*/
+.artikelpage {
+  display: column;
+  margin: 30px;
+}
+.headerartikel {
+  height: 100px;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-top: solid 1px white;
+  color: white;
+}
+.titledalam-artikel {
+  
+}
+.tanggaldalam-artikel {
+  padding-bottom: 20px;
+  border-bottom: solid 1px white;
+}
+.isi-artikel {
+ padding: 10px;
+}
+.gambardalam-artikel {
+  max-width: 100%;
+  height: auto;
+}
+.teks-artikel {
+  text-indent: 30px;
+}
+.daftar-sumber {
+  font-size: 10px;
 }
